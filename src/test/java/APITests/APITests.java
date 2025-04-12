@@ -97,7 +97,7 @@ public class APITests {
 
 
     @Test
-
+     //eliminar usuario
      public void eliminarusuario() {
         given().baseUri("https://reqres.in").when().delete("/api/users/432").then()
         .statusCode(204).log().all(); 
